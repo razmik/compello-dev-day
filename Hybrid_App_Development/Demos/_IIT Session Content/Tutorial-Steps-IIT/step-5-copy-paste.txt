@@ -1,0 +1,51 @@
+INDEX.HTML (HEADER)
+===================
+	    <script src="js/app.js"></script>
+
+
+
+INDEX.HTML (BODY > PANEL)
+===================
+
+
+        <div data-role="panel" id="left-panel" data-display="reveal">
+            <div>
+                <ul data-role="listview" data-filter="true" data-filter-placeholder="Search" data-inset="true" data-autodividers="true">
+                    <li><a href="#">Kosala Perera</a>
+                    </li>
+                    <li><a href="#">Rashmika Nawaratne</a>
+                    </li>
+                    <li><a href="#">Sahan Serasinghe</a>
+                    </li>
+                    <li><a href="#">Shamal Perera</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+		
+		
+		
+JS/APP.JS
+======
+		
+;
+(function () {
+    function bind() {
+        $(document).on('pageinit', '#home-page', function () {
+            $(document).on('swipeleft swiperight', '#home-page', function (e) {
+                if (!e.handled) {
+                    if ($.mobile.activePage.jqmData('panel') !== 'open') {
+                        if (e.type === 'swiperight') {
+                            $('#left-panel').panel('open');
+                            e.handled = true;
+                        }
+                    }
+                }
+                e.preventDefault();
+            });
+        });
+    }
+    bind();
+
+})();		
