@@ -1,0 +1,37 @@
+Demo Steps:
+
+STEP 1
+
+1. Create a cordova project - http://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html
+
+cordova create compello-dev-day com.compello.devday CompelloDevDay
+
+compello-dev-day - specifies a directory to be generated for your project
+com.compello.devday - provides your project with a reverse domain-style identifier
+CompelloDevDay - application's display title
+
+2. Add platform
+
+cordova platform add android
+
+STEP 2
+
+0. Jquery Mobile site (Download JQM, JQM API Guide and JQM Demo)
+1. Add jquery mobile js and css to folder
+2. Add logo and profiles to folder
+3. Add reference to index.html
+4. Update the index.html (Sample)
+5. Copy cordova.js from android platform folder (Just to test)
+6. Run index.html using Google Chrome Dev tools
+
+STEP 3
+
+1. Guide on the page structure of Jquery Mobile
+2. Create page 
+3. Design the home page
+4. CSS Changes on Splash Screen and Home Page
+
+STEP 4 - Adding Widgets
+
+1. Add listview widget
+
