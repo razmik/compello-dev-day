@@ -31,7 +31,29 @@ STEP 3
 3. Design the home page
 4. CSS Changes on Splash Screen and Home Page
 
-STEP 4 - Adding Widgets
+STEP 4 - ListView
 
 1. Add listview widget
+
+STEP 5 - Popup
+
+1. Add popup for listview selections
+
+STEP 6 - http://docs.phonegap.com/en/3.0.0/cordova_camera_camera.md.html
+
+1. Add Camera Plugin
+2. Copy cordova_plugin.js to www folder (for testing purposes)
+3. Add new page and add camera details
+
+STEP 7 - Add icons
+
+STEP N - Create a router from razmik.github
+
+Building
+- Need android SDK 19.1.0 or higher
+	- If not type android -v in cmd and install the required version
+1. Remove cordova.js from www folder
+2. Remove cordova_plugin.js from www folder
+
+
 

@@ -1,3 +1,6 @@
+body{
+	text-transform: none !important;
+}
 /*Splash Screen*/
 .event.listening {
 	background-color: transparent !important;
