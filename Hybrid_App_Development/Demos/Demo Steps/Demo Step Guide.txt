@@ -4,19 +4,35 @@ STEP 1
 
 1. Create a cordova project - http://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html
 
-cordova create compello-dev-day com.compello.devday CompelloDevDay
+cordova create compello-dev-day com.compello.devday CompelloDevDay -d
+
+Running the command with the -d option displays information about its progress.
 
 compello-dev-day - specifies a directory to be generated for your project
 com.compello.devday - provides your project with a reverse domain-style identifier
 CompelloDevDay - application's display title
 
-2. Add platform
+2. Add platform - Platform Guide: http://cordova.apache.org/docs/en/4.0.0/guide_platforms_index.md.html#Platform%20Guides
 
 cordova platform add android
 
 STEP 2
 
+Available Hybrid Mobile Frameworks
+
+Select complying development platforms: http://mobile-frameworks-comparison-chart.com/
+
+Sencha Touch
+jQuery Mobile + Backbone
+Kendo UI
+Angular JS + Ionic
+
+Based on our requirements and required technology, we went for jQuery Mobile.
+
 0. Jquery Mobile site (Download JQM, JQM API Guide and JQM Demo)
+	i. http://jquerymobile.com/
+	ii. http://api.jquerymobile.com/
+	iii. http://jquerymobile.com/demos/
 1. Add jquery mobile js and css to folder
 2. Add logo and profiles to folder
 3. Add reference to index.html
@@ -44,16 +60,27 @@ STEP 6 - http://docs.phonegap.com/en/3.0.0/cordova_camera_camera.md.html
 1. Add Camera Plugin
 2. Copy cordova_plugin.js to www folder (for testing purposes)
 3. Add new page and add camera details
+4. Update with new icons
+5. Change the name - Change config.xml
 
-STEP 7 - Add icons
-
-STEP N - Create a router from razmik.github
-
-Building
+STEP 7 - Building
 - Need android SDK 19.1.0 or higher
 	- If not type android -v in cmd and install the required version
 1. Remove cordova.js from www folder
 2. Remove cordova_plugin.js from www folder
+3. Update the version and details of config.xml
+4. Build using - cordova build android
+
+STEP 8 - Publish
+Android
+1. Create a Google Developer Account
+2. Sign your applicatin
+	- Create a keystore file
+	- http://developer.android.com/tools/publishing/app-signing.html#signing-manually
+iOS
+1. Need to XCode
+2. Create a project and publish the application
+
 
 
 

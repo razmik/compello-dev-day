@@ -1,0 +1,12 @@
+F:\_Development\Git repo\2015-01 Compello Dev Day\compello-dev-day\Hybrid_App_Development\Demos\Demo Steps\STEP 6\compello-dev-day\platforms\android\ant-build\classes.dex : \
+F:\_Development\Git repo\2015-01 Compello Dev Day\compello-dev-day\Hybrid_App_Development\Demos\Demo Steps\STEP 6\compello-dev-day\platforms\android\ant-build\classes\com\compello\devday\BuildConfig.class \
+F:\_Development\Git repo\2015-01 Compello Dev Day\compello-dev-day\Hybrid_App_Development\Demos\Demo Steps\STEP 6\compello-dev-day\platforms\android\ant-build\classes\com\compello\devday\CompelloDevDay.class \
+F:\_Development\Git repo\2015-01 Compello Dev Day\compello-dev-day\Hybrid_App_Development\Demos\Demo Steps\STEP 6\compello-dev-day\platforms\android\ant-build\classes\com\compello\devday\R$attr.class \
+F:\_Development\Git repo\2015-01 Compello Dev Day\compello-dev-day\Hybrid_App_Development\Demos\Demo Steps\STEP 6\compello-dev-day\platforms\android\ant-build\classes\com\compello\devday\R$drawable.class \
+F:\_Development\Git repo\2015-01 Compello Dev Day\compello-dev-day\Hybrid_App_Development\Demos\Demo Steps\STEP 6\compello-dev-day\platforms\android\ant-build\classes\com\compello\devday\R$string.class \
+F:\_Development\Git repo\2015-01 Compello Dev Day\compello-dev-day\Hybrid_App_Development\Demos\Demo Steps\STEP 6\compello-dev-day\platforms\android\ant-build\classes\com\compello\devday\R$xml.class \
+F:\_Development\Git repo\2015-01 Compello Dev Day\compello-dev-day\Hybrid_App_Development\Demos\Demo Steps\STEP 6\compello-dev-day\platforms\android\ant-build\classes\com\compello\devday\R.class \
+F:\_Development\Git repo\2015-01 Compello Dev Day\compello-dev-day\Hybrid_App_Development\Demos\Demo Steps\STEP 6\compello-dev-day\platforms\android\ant-build\classes\org\apache\cordova\camera\CameraLauncher.class \
+F:\_Development\Git repo\2015-01 Compello Dev Day\compello-dev-day\Hybrid_App_Development\Demos\Demo Steps\STEP 6\compello-dev-day\platforms\android\ant-build\classes\org\apache\cordova\camera\ExifHelper.class \
+F:\_Development\Git repo\2015-01 Compello Dev Day\compello-dev-day\Hybrid_App_Development\Demos\Demo Steps\STEP 6\compello-dev-day\platforms\android\ant-build\classes\org\apache\cordova\camera\FileHelper.class \
+F:\_Development\Git repo\2015-01 Compello Dev Day\compello-dev-day\Hybrid_App_Development\Demos\Demo Steps\STEP 6\compello-dev-day\platforms\android\ant-build\dexedLibs\classes-c26e6f295c4f4779f16fb5a6134dad4e.jar \
